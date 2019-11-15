@@ -1,3 +1,8 @@
+##npx install
+npm i nxp -g or yarn global add npx
+npx create-react-app nomflix
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
