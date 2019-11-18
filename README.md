@@ -1,4 +1,5 @@
 ##npx install
+<<<<<<< HEAD
 npm i nxp -g or yarn global add npx
 npx create-react-app nomflix
 
@@ -26,3 +27,11 @@ yarn add axios
 -[] Search (Movie,TV)
 
  
+=======
+
+npm i nxp -g or yarn global add npx
+
+npx create-react-app nomflix
+
+
+>>>>>>> 94a5e75bb45737a2b8d986fad67bbb351fb38e7b
