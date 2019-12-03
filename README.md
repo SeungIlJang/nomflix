@@ -1,3 +1,5 @@
+https://reverent-brattain-ce3ce6.netlify.com/
+
 ##npx install
 <<<<<<< HEAD
 npm i nxp -g or yarn global add npx
