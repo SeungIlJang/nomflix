@@ -139,6 +139,11 @@ const SeasonPoster = styled.p`
   background-size: cover; 
   height: 180px;
 `;
+
+const Button = styled.button`
+  background-color: ${props => props.isSelected ?"blue" :"white"};
+  color: ${props => props.isSelected ?"white" :"black"};
+`;
 const useTabs = (initialTab, allTabs) => {
     const [currentIndex, setCurrentIndex] = useState(initialTab);
     if (!allTabs || !Array.isArray(allTabs)) {
@@ -209,7 +214,7 @@ const DetailPresenter = ({ result, loading, error }) =>
                                 return index <2;
                             }
                         }).map((section,index) => (
-                            <button key={index} onClick={() =>changeItem(index)}>{section.tab}</button>
+                            <Button isSelected={currentIndex===index} key={index} onClick={() =>changeItem(index)}>{section.tab}</Button>
                         ))}
                         {/*<div style={{color:'red'}}>{currentItem.index}</div>*/}
                         <Panel isSelected={currentIndex===0}>
